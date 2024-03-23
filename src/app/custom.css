@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'JostMedium';
+  src: url('../fonts/JostMedium.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'JostRegular';
+  src: url('../fonts/JostRegular.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'JostSemiBold';
+  src: url('../fonts/JostSemiBold.ttf');
+  font-weight: bold;
+}
+
+body{
+  font-family: 'JostRegular' !important;
+  font-weight: 100;
+  color: #7a7a7a !important;
+  font-size: 15px !important;
+}
+h1,h2,h3,h4,h5{
+  font-family:'JostSemiBold' ;
+  color: #000 !important;
+}
+.loginbox {
+    padding: 30px;
+}
+.logindiv{
+ z-index: 2;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-color: white;
+    border-radius: 0px 80px 80px 0px;
+}
+
+.loginboxlight {
+    position: absolute;
+    width: 31%;
+    top: 28px;
+    height: 88%;
+    box-shadow: 40px 14px 0px 10px #7892b5;
+    border-radius: 60px;
+}
+
+.bg-gradients {
+    background-image: linear-gradient(180deg, #104581, #155db0) !important;
+}
+.withbgimg{
+    background-image: url('../images/mask.png');
+    height: 100vh; /* Make the container full screen */
+
+  background-position: center; /* Center the background image */
+  background-size: cover; 
+}
+img.logo {
+    width: 180px;
+    margin-top: 70px;
+}
+.loginbox .container h1 {
+    font-size: 28px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.input-group {
+      position: relative;
+      width: 300px; /* Adjust width as needed */
+    }
+
+    .input-group input[type="text"] {
+      padding-left: 30px; /* Adjust padding to make space for the icon */
+      width: 100%;
+    }
+      .input-group input[type="password"] {
+      padding-left: 30px; /* Adjust padding to make space for the icon */
+      width: 100%;
+    }
+
+    .input-group svg {
+        position: absolute;
+        left: 10px;
+        top: 68%;
+        transform: translateY(-50%);
+        color: #777; 
+        height: 18px;
+        z-index:9999;
+    }
+
+    .loginbtn{
+        background-color: #114581 !important;
+        width: 100%;
+        border-radius:50px !important;
+        padding: 10px !important;
+    }
+    .form-group{
+        margin-top:20px;
+    }
+
+ .smallcontainer {
+    max-width: 600px;
+    margin: 150px auto;
+}
+
+.otp {
+    width: 50px !important;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px !important;
+    border: 1px solid #ccc ;
+}
+img.headerLogo {
+   height: 70px;
+    margin: 10px;
+}
+section.header {
+    border-bottom: 1px solid #ccc;
+        BACKGROUND-COLOR: WHITE;
+}
+.mediumbutton {
+    width: 200px;
+}
+.alignrightbtn {
+    float: right;
+}
+.btn svg {
+    height: 20px;
+}
+.Actionicon {
+    height: 20px;
+    margin: 11px;
+}
+table th,td{
+  padding:10px;
+}
+table th{
+  background-color:#f8f9fa;
+}
+.zero-padding {
+    padding: 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+   
+  padding:45px;
+  z-index: 199999;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  top:50px;
+  
+}
+h5.UserName {
+    float: left;
+    margin: 35px 10px;
+}
+img.userImg {
+   height: 60px;
+    margin: 5px !important;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    
+}
+
+.breadcrumbs ul li {
+    list-style-type: none;
+    float: left;
+    padding: 10px 10px 0px 0px;
+}
+
+.breadcrumbs ul li:nth-child(2) {
+   font-family: 'JostSemiBold';
+    font-weight: bold;
+    color: #000;
+    padding-top: 12px;
+    font-size: 20px;
+}
+.pageBbody {
+    BACKGROUND-COLOR: #f8f9fa;
+}
